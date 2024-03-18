@@ -11,8 +11,6 @@ function Themes() {
   useEffect(()=>{
 
     if(document.getElementById("mainRow") !== null){
-    
- 
         document.getElementById("mainRow").style.backgroundColor =bgColor;
         document.getElementById("SoftSkillsPallete").style.backgroundColor =bgColor
         document.getElementById("about").style.backgroundColor =bgColor;
@@ -25,16 +23,9 @@ function Themes() {
 
         defaultColor =localStorage.getItem("color");
   }
-  
-
   })
- 
-    
-
- 
   return (
     <>
-
 
 <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div className="modal-dialog">
@@ -46,7 +37,6 @@ function Themes() {
       <div className="modal-body">
     
 <div class="container overflow-hidden">
-
   <div className="row" style={{backgroundColor:bgColor}}>
     <div className="col themes-cards" onClick={()=>{setBgColor("#e8ffc5")}} id="Green">Green</div>
     <div className="col themes-cards" onClick={()=>{setBgColor("#fdd8ff")}} id="Pink">Pink</div>
@@ -62,22 +52,16 @@ function Themes() {
    click on save changes for appying the selected theme to the App.
 
   </div>
-
-
      </div>   
       </div>
       <div className="modal-footer">
         <button type="button" className="backDefaultBTN" data-bs-dismiss="modal" onClick={()=>{localStorage.clear(); window.location.reload()}} >Back to default</button>
         <button type="button" className="saveChangesBTN" data-bs-dismiss="modal" onClick={()=>{localStorage.setItem("color", bgColor); window.location.reload()}}>Save Changes</button>
-
-
       </div>
     </div>
   </div>
-
-  </div>   
-    
-    </>
+  </div>    
+</>
   )
 }
 

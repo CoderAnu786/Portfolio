@@ -13,11 +13,11 @@ import CSS from './images/css.png'
 function Certifications() {
   return (
     <>
-    <div className="row" id="Certifications">
+<div className="row" id="Certifications">
         <h3>Certifications</h3>
         <p id="skillsintro">- With verification links</p>
-<div className="container" >
-  <div className="row row-cols-2 row-cols-lg-3" id="Certification-upperCard">
+     <div className="container" >
+       <div className="row row-cols-2 row-cols-lg-3" id="Certification-upperCard">
     <div className="col-4 col-lg-2 certifications-cards" id="firstCard-certi">
     <h4>AZ-900</h4>
     <img src={AZ900} alt="AZ-900"/>   
@@ -75,19 +75,9 @@ function Certifications() {
    
 
       
-  </div>
-
-  
-
+     </div>
 </div>
-
-
-
-
-    </div>
-
-
-    
+</div>  
     </>
   )
 }

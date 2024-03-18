@@ -97,13 +97,14 @@ li {
     border-radius: 5px;
     outline: none;
     padding: 10px 10px;
-    border:2px solid black;
-   
+    border: 2px solid black;
+
 }
+
 #msgMeBtn:hover {
-    
+
     background-color: #ffee39;
-   
+
 }
 
 i {
@@ -204,8 +205,9 @@ div h3 {
     background-color: #f9f971;
     margin-top: -12px;
     border: 2px solid black;
-    
+
 }
+
 #downloadResume:hover {
 
     background-color: #ffee39;
@@ -222,8 +224,8 @@ div h3 {
 
 }
 
-#downloadResumeMobileView:hover{
-   
+#downloadResumeMobileView:hover {
+
     background-color: #ffee39;
 
 
@@ -258,20 +260,21 @@ div h3 {
     margin: 15px;
     height: 212px;
     text-align: justify;
-    
+
 
 
 
 
 }
-.row .qualiExDiv{
+
+.row .qualiExDiv {
     border-radius: 10px;
     background-color: #f9f971;
     border: 2px solid black;
-    color:black;
+    color: black;
 }
 
-.row .qualiExDiv:hover{
+.row .qualiExDiv:hover {
     background-color: #ffee39;
 }
 
@@ -286,25 +289,19 @@ div h3 {
 .QualiEx-heading {
     font-size: small;
     color: red;
-
-
 }
-#name{
 
-    font-weight: bolder; 
+#name {
+    font-weight: bolder;
     background-image: linear-gradient(90deg, #9f55cd, red);
     background-clip: text;
     color: transparent;
     padding: 2px;
-
 }
 
 .skill-card:hover {
-
     background-color: #ebe4e1;
     cursor: pointer;
-
-
 }
 
 
@@ -316,51 +313,49 @@ div h3 {
     left: 190px;
     color: grey;
     font-family: 'Poppins', sans-serif;
-
 }
 
-.Awards{
-    width:80%;
+.Awards {
+    width: 80%;
     background-color: white;
-    padding:20px;
-    margin:5px;
+    padding: 20px;
+    margin: 5px;
     border-radius: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     font-family: 'Poppins', sans-serif;
-
-    
 }
-.Awards-details{
+
+.Awards-details {
 
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     text-align: left;
-    margin-left:30px;
+    margin-left: 30px;
     color: grey;
     font-size: small;
 
 }
 
-footer{
+footer {
 
     font-weight: bolder;
     text-align: center;
-    margin:10px;
+    margin: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: xx-small;
 
-   }
+}
 
-   #SoftSkillsPallete{
+#SoftSkillsPallete {
 
-   
+
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 10px;
 
-  
-   }
-  
+
+}
+
 @media only screen and (max-width : 480px) {
 
     .row {
@@ -405,7 +400,7 @@ footer{
 
         margin: 20px;
         font-size: small;
-       
+
     }
 
     #mypic {
@@ -444,36 +439,33 @@ footer{
         left: 210px;
 
     }
-  
-    .Awards{
-        width:100%;
+
+    .Awards {
+        width: 100%;
         background-color: white;
-        padding:20px;
-        margin:5px;
+        padding: 20px;
+        margin: 5px;
         border-radius: 10px;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    
-        
-    }
-    footer span{
 
-       
+
+    }
+
+    footer span {
         font-size: xx-small;
         color: blueviolet;
-        
-    
-       }
+    }
 
-       #devName{
-        color:purple;
-       }
+    #devName {
+        color: purple;
+    }
 
-       #SoftSkillsPallete{
+    #SoftSkillsPallete {
 
         font-size: 6px;
-        
-      
-       }
+
+
+    }
 
 
 }

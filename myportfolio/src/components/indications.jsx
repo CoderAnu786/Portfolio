@@ -3,9 +3,7 @@ import './CSS/indications.css'
 
 const Indications = () => {
   return (
-    <div id="indicationsdDiv">
-    
-      
+    <div id="indicationsdDiv">  
               <ol>
                 <li>Select"Qualification" or "Experience"</li>
                 <li>All details are genuine</li>
@@ -13,9 +11,7 @@ const Indications = () => {
                 <li>Details from college</li>
                 <li>Details from PMKVY </li>
                 <li>Details from Work</li>
-              </ol>
-             
-             
+              </ol>          
     </div>
   )
 }

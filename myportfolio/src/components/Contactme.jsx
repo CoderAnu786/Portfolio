@@ -36,9 +36,6 @@ const Contactme = () => {
     e.target.form[2].value ="";
     form.current.reset();
   }
- 
-
-
     setisChecked(!isChecked);
   };
   const sendEmail = (e) => {
@@ -48,7 +45,6 @@ const Contactme = () => {
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
-
         form.current,
         process.env.REACT_APP_API_KEY
       )

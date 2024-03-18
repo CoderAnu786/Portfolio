@@ -10,10 +10,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg bg-light fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Anurag</a>
-
-   
-    <span className="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-     
+    <span className="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"> 
       <i className="fa-solid fa-burger" style={{color:"black",border:"none"}}></i>
     </span>
     <div className="offcanvas offcanvas-bottom" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -44,10 +41,7 @@ const Nav = () => {
     </div>
   </div>
 </nav>
-    
- 
-
-    </>
+</>
   )
 }
 
