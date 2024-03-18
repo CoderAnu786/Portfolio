@@ -1,185 +1,136 @@
-
-#message{
-
+#message {
     resize: none;
     font-family: 'Poppins', sans-serif;
 }
 
-label{
-
+label {
     font-size: x-small;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
 
-h4{
-
+h4 {
     color: grey;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
 }
 
-.sendbtn{
-   
+.sendbtn {
     border-radius: 8px;
     padding: 8px;
     text-align: center;
-    width:100%;
-    margin:2px;
+    width: 100%;
+    margin: 2px;
     font-family: 'Poppins', sans-serif;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     background-color: #f9f971;
     border: 2px solid black;
-   
 }
-.sendbtn:hover{
-   
+
+.sendbtn:hover {
     background-color: #ffee39;
-
-   
 }
 
-
-input[type="text"] ,input[type="email"], textarea{
-
-    font-size:smaller ;
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: smaller;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     font-family: 'Poppins', sans-serif;
-   
-
 }
-input[type="Checkbox"]{
 
-    font-size:smaller ;
+input[type="Checkbox"] {
+    font-size: smaller;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     font-family: 'Poppins', sans-serif;
-   
-
 }
 
-.pic-area-card{
- height:437px;
- 
-
+.pic-area-card {
+    height: 437px;
 }
 
-
-.Contact-pic{
-    width:50%;
-    padding:20px;
-    margin:5px;
+.Contact-pic {
+    width: 50%;
+    padding: 20px;
+    margin: 5px;
     border-radius: 10px;
-    margin-left:110px;
-   
-   
-
-    
-}
-.contactme-upper-card{
-margin:-8px;
-margin-top: 10px;
+    margin-left: 110px;
 }
 
-p{
+.contactme-upper-card {
+    margin: -8px;
+    margin-top: 10px;
+}
 
+p {
     font-size: smaller;
     font-family: 'Poppins', sans-serif;
+}
 
-   }
-   #message-from-me{
-
+#message-from-me {
     font-size: x-small;
     text-align: left;
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
-    padding:10px;
+    padding: 10px;
     margin-top: -20px;
     border-radius: 5px;
+}
 
-   }
-   
-   
-   #message-from-me li{
 
+#message-from-me li {
     font-size: x-small;
     text-align: left;
     font-family: 'Poppins', sans-serif;
 
-   }
-   
+}
 
-#checkBox{
-
-    margin-top:-1px;
+#checkBox {
+    margin-top: -1px;
 }
 
 .toast-message {
-    
-
     font-size: smaller;
     font-family: 'Poppins', sans-serif;
     white-space: pre-wrap;
     text-align: left;
-    
-    
-
-
-   
 }
 
 
 @media only screen and (max-width : 480px) {
-    .Contact-pic{
-        width:60%;
-        padding:20px;
-        margin:5px;
-        margin-left:50px;
+    .Contact-pic {
+        width: 60%;
+        padding: 20px;
+        margin: 5px;
+        margin-left: 50px;
         margin-top: 50px;
-        
-       
-       
-    
-        
     }
-
-  
-   
-    #contact-pic-text{
-
+    #contact-pic-text {
         font-size: smaller;
-     
     }
-    .contact-card{
-       
-        margin:-10px;
+
+    .contact-card {
+        margin: -10px;
     }
-   .pic-area-card{
-    margin:-10px;
-    margin-top:20px;
-    margin-bottom: 20px;
-  
-   }
-   #message-from-me{
 
-    font-size: x-small;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    background-color: whitesmoke;
-    padding:8px;
-    margin-top: -35px;
-    border-radius:5px;
+    .pic-area-card {
+        margin: -10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-   }
-   #message-from-me li{
-
-    font-size: x-small;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-
-   }
-   
-   
-    
-    
-
+    #message-from-me {
+        font-size: x-small;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        background-color: whitesmoke;
+        padding: 8px;
+        margin-top: -35px;
+        border-radius: 5px;
+    }
+    #message-from-me li {
+        font-size: x-small;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+    }
 }

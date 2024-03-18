@@ -1,26 +1,15 @@
 
 .themes-cards{
-
-
     background-color: white;
     margin:5px;
     padding: 20px 20px;
     border-radius: 2px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    transition: all ease-in 0.5s;
-
-  
-   
+    transition: all ease-in 0.5s;  
 }
-.themes-cards:hover{
-
-
-  
+.themes-cards:hover{ 
 scale:1.05;
-cursor: pointer;
-
-  
-   
+cursor: pointer;  
 }
 
 #Green{
@@ -70,8 +59,6 @@ h5{
     border:none;
     font-size: smaller;
     font-family: 'Poppins', sans-serif;
-
-
 }
 
 .backDefaultBTN{
@@ -82,8 +69,6 @@ h5{
     border:none;
     font-size: smaller;
     font-family: 'Poppins', sans-serif;
-
-
 }
 
 .backDefaultBTN:hover{
@@ -93,8 +78,6 @@ background-color: #fdc9bb;
 
 .saveChangesBTN:hover{
     background-color: #91d825;   
- 
-
 }
 
 #theme-text{
@@ -104,12 +87,10 @@ background-color: #fdc9bb;
     margin-left: 9px;
 }
 .fa-circle-xmark{
-
     color:red;
 }
 @media only screen and (max-width : 480px) {
     #theme-text{
-        font-size: x-small;
-        
+        font-size: x-small;      
     }
 }
