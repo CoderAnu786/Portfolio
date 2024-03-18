@@ -1,0 +1,135 @@
+
+.row .inner-card-qualiEx{
+
+    background-color: white;
+   
+ }
+.qualiExDiv{
+
+    background-color: black;
+    font-size: small;
+    color: white;
+    padding:20px;
+    margin: 2px;
+    border-radius: 10px;
+    text-align: center;
+   
+  
+}
+
+
+
+
+.horizontal-timeline .items {
+    border-top:4px solid firebrick;
+
+  }
+  
+  .horizontal-timeline .items .items-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+    font-size: x-small;
+    
+  }
+  
+  .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px solid coral;
+    top: 0;
+  }
+  
+  .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 8px;
+    font-size: x-small;
+ 
+  }
+
+  #QualiExp-scroll-down-msg{
+    margin-top: -40px;
+    font-size: 10px;
+    display: none;
+   
+  }
+ 
+  
+  @media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+      display: inline-block;
+      width: 24%;
+      padding-top: 45px;
+    }
+  
+    .horizontal-timeline .items .items-list .event-date {
+      top: -40px;
+    }
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+   
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: purple; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }
+
+
+@media only screen and (max-width : 480px) {
+
+  .QualiEx-card{
+    margin:-8px;
+
+  }
+
+  .QualiEx-upperCard{
+
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .horizontal-timeline .items {
+    border-top: 1.5px solid firebrick;
+
+  }
+  
+  .horizontal-timeline .items .items-list:before {
+   
+    border-right: 1px solid coral;
+
+  }
+
+  #QualiExp-scroll-down-msg{
+
+    display: block;
+  }
+  
+ 
+    
+}

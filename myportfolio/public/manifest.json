@@ -1,0 +1,44 @@
+{
+  "name": "Anurag Nishad",
+  "short_name": "My PortFolio",
+  "theme_color": "#fdff71",
+  "background_color": "#fdff71",
+  "display": "standalone",
+  "orientation":"portrait-primary",
+  "scope": "/",
+  "start_url": "https://anuragnishadportfolio.web.app/",
+  "icons": [
+   
+    {
+      "src": "https://anuragnishadportfolio.web.app/maskable_icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://anuragnishadportfolio.web.app/maskable_icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://anuragnishadportfolio.web.app/maskable_icon_x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://anuragnishadportfolio.web.app/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+  
+    {
+      "src": "https://anuragnishadportfolio.web.app/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+.row {
+
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 50px;
+
+
+
+}
+
+ul {
+
+    list-style: none;
+}
+
+#mypic {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: center;
+    animation: myanimation 9s ease-in-out infinite 1s;
+    border: 1px solid honeydew;
+
+
+}
+
+@keyframes myanimation {
+
+    0% {
+
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+#introUl {
+
+    list-style: none;
+    margin: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+
+}
+
+.fa-trophy {
+
+    color: gold
+}
+
+.fa-diagram-project {
+    color: blueviolet;
+}
+
+.fa-briefcase {
+    color: brown;
+}
+
+.About-EPW {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#followUl {
+
+    list-style: none;
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+
+}
+
+li {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#msgMeBtn {
+    background-color: #f9f971;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 10px;
+    border:2px solid black;
+   
+}
+#msgMeBtn:hover {
+    
+    background-color: #ffee39;
+   
+}
+
+i {
+    margin: 8px;
+    font-weight: bold;
+}
+
+.about-cards {
+
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.about-intro-card p {
+
+
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 30px;
+
+
+}
+
+#introHeading {
+
+    margin-top: 35px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.i-con {
+    display: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: darkblue;
+
+}
+
+.EPW-description {
+
+    color: green;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+h3,
+h5,
+h4 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+#followOn {
+    margin-top: 55px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: darkmagenta;
+    font-size: 23px;
+
+}
+
+#quickintro,
+#skillsintro,
+#experienceintro {
+    margin-top: -18px;
+    font-size: 10px;
+
+}
+
+div h3 {
+
+    margin-bottom: 20px;
+}
+
+#downloadResume {
+
+
+    border-radius: 10px;
+    background-color: #f9f971;
+    margin-top: -12px;
+    border: 2px solid black;
+    
+}
+#downloadResume:hover {
+
+    background-color: #ffee39;
+}
+
+
+#downloadResumeMobileView {
+    border-radius: 10px;
+    background-color: #f9f971;
+    margin-top: -12px;
+    display: none;
+    border: 2px solid black;
+
+
+}
+
+#downloadResumeMobileView:hover{
+   
+    background-color: #ffee39;
+
+
+}
+
+#downloadResume {
+
+    border: 1px solid black;
+
+}
+
+
+.skill-card {
+
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    text-align: justify;
+
+
+}
+
+.QualiEx-card {
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    height: 212px;
+    text-align: justify;
+    
+
+
+
+
+}
+.row .qualiExDiv{
+    border-radius: 10px;
+    background-color: #f9f971;
+    border: 2px solid black;
+    color:black;
+}
+
+.row .qualiExDiv:hover{
+    background-color: #ffee39;
+}
+
+.QualiEx-card .timeline-data {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.QualiEx-heading {
+    font-size: small;
+    color: red;
+
+
+}
+#name{
+
+    font-weight: bolder; 
+    background-image: linear-gradient(90deg, #9f55cd, red);
+    background-clip: text;
+    color: transparent;
+    padding: 2px;
+
+}
+
+.skill-card:hover {
+
+    background-color: #ebe4e1;
+    cursor: pointer;
+
+
+}
+
+
+#ratings-front,
+#ratings-soft,
+#ratings-backend {
+    position: relative;
+    margin-top: -150px;
+    left: 190px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Awards{
+    width:80%;
+    background-color: white;
+    padding:20px;
+    margin:5px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.Awards-details{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left:30px;
+    color: grey;
+    font-size: small;
+
+}
+
+footer{
+
+    font-weight: bolder;
+    text-align: center;
+    margin:10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-small;
+
+   }
+
+   #SoftSkillsPallete{
+
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+
+  
+   }
+  
+@media only screen and (max-width : 480px) {
+
+    .row {
+        padding: 10px;
+
+    }
+
+    li {
+
+        font-size: 12px;
+    }
+
+    #follow-card {
+
+        display: none;
+    }
+
+    .i-con {
+        display: block;
+        left: 60px;
+
+    }
+
+    #mypic {
+        margin-bottom: -20px;
+
+    }
+
+    #downloadResume {
+
+        display: none;
+    }
+
+    #downloadResumeMobileView {
+
+        display: block;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    #introUl {
+
+        margin: 20px;
+        font-size: small;
+       
+    }
+
+    #mypic {
+
+        height: 120px;
+        width: 120px;
+    }
+
+    h3,
+    h4,
+    h5 {
+        font-size: smaller;
+    }
+
+    span {
+        font-size: small;
+    }
+
+    h2 {
+
+        font-size: large;
+        margin-top: 45px;
+    }
+
+    .about-intro-card p {
+        font-size: x-small;
+        margin-top: 15px;
+    }
+
+    #ratings-front,
+    #ratings-soft,
+    #ratings-backend {
+
+        position: absolute;
+        margin-top: -124px;
+        left: 210px;
+
+    }
+  
+    .Awards{
+        width:100%;
+        background-color: white;
+        padding:20px;
+        margin:5px;
+        border-radius: 10px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+        
+    }
+    footer span{
+
+       
+        font-size: xx-small;
+        color: blueviolet;
+        
+    
+       }
+
+       #devName{
+        color:purple;
+       }
+
+       #SoftSkillsPallete{
+
+        font-size: 6px;
+        
+      
+       }
+
+
+}
+
+@media only screen and (min-width : 320px) {}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}

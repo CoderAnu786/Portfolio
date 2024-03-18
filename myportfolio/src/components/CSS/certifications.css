@@ -1,0 +1,115 @@
+
+.certifications-cards{
+
+    background-color: white;
+    padding:20px;
+    font-family: 'Poppins', sans-serif;
+ 
+
+
+ 
+ 
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+
+}
+.certifications-cards img{
+
+    width:50%;
+
+}
+
+.certifications-cards .HRhoverImages{
+
+    transition: all ease-in-out 1s;
+    width:60%;
+    margin-top: 6px;
+}
+
+.HRhoverImages:hover{
+
+scale: 1.5;
+}
+
+#firstCard-certi{
+
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+
+}
+
+#lastCard-certi{
+
+    border-bottom-right-radius:10px ;
+    border-top-right-radius:10px ;
+
+}
+
+#certifications-details{
+
+    font-size: x-small;
+    margin:10px;
+    text-align: center;
+}
+@media only screen and (max-width : 480px) {
+
+    #firstCard-certi{
+
+        border-bottom-left-radius:0px ;
+        border-top-left-radius:10px ;
+    
+    }
+    
+    #lastCard-certi{
+    
+        border-bottom-right-radius:10px ;
+        border-top-right-radius:0px ;
+    
+    }
+    #thirdCard-certi{
+
+      
+        border-top-right-radius:10px ;
+    }
+    #fourthCard-certi{
+
+      
+        border-bottom-left-radius:10px ;
+    }
+
+    #certifications-details{
+
+        font-size: 8px;
+        color: purple;
+        text-align: center;
+        margin:2px;
+        font-weight: bold;
+    }
+    h4{
+        font-size: x-small;
+    }
+
+    .certifications-cards img{
+
+        width:100%;
+    
+    }
+    .certifications-cards .HRhoverImages{
+
+        
+        width:100%;
+ 
+    }
+    
+    #Certification-upperCard{
+
+     margin:-20px;
+     margin-bottom: 15px;
+    }
+
+
+
+}

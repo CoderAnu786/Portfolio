@@ -1,0 +1,115 @@
+
+.themes-cards{
+
+
+    background-color: white;
+    margin:5px;
+    padding: 20px 20px;
+    border-radius: 2px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all ease-in 0.5s;
+
+  
+   
+}
+.themes-cards:hover{
+
+
+  
+scale:1.05;
+cursor: pointer;
+
+  
+   
+}
+
+#Green{
+
+    background-color:#e8ffc5 ;
+}
+
+#Pink{
+
+    background-color:#fdd8ff;
+}
+#Perl{
+
+    background-color:#f5eaf0 ;
+}
+#Linen{
+
+    background-color:#dfe5ad ;
+}
+
+#Coral{
+
+    background-color: #e6d49f ;
+}
+
+
+#Lace{
+
+    background-color: #fdf6e6;
+}
+
+#Lavender{
+
+    background-color: #E6E6FA;
+}
+
+h5{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.saveChangesBTN{
+    background-color: #e8ffc5;
+    padding:8px;
+    border-radius:3px;
+    border:none;
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.backDefaultBTN{
+
+    background-color: #feeee9;
+    padding:8px;
+    border-radius:3px;
+    border:none;
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.backDefaultBTN:hover{
+background-color: #fdc9bb;
+}
+
+
+.saveChangesBTN:hover{
+    background-color: #91d825;   
+ 
+
+}
+
+#theme-text{
+    font-size: x-small;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 9px;
+}
+.fa-circle-xmark{
+
+    color:red;
+}
+@media only screen and (max-width : 480px) {
+    #theme-text{
+        font-size: x-small;
+        
+    }
+}
